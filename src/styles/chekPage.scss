@@ -1,0 +1,45 @@
+.checkPage-wrapper {
+  max-width: 1405px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 85px;
+  justify-content: center;
+}
+
+.infoCheck-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 960px;
+  gap: 45px;
+  margin-top: 95px;
+  margin-bottom: 123px;
+}
+
+.buy-steps {
+  height: 60px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #ffa800;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 102px;
+  margin-left: auto;
+  padding-left: 56px;
+  padding-right: 56px;
+  &:hover {
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  &:disabled {
+    background-color: #928f94;
+  }
+  &:active {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: transparent;
+    color: #ffa800;
+    border: 1px solid #ffa800;
+  }
+}

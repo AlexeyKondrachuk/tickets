@@ -1,0 +1,129 @@
+.directioninfo-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+  margin-bottom: 54px;
+  gap: 20px;
+  justify-content: space-between;
+
+  .number_train-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    h4 {
+      color: #e5e5e5;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0px;
+    }
+    span {
+      font-size: 24px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+  }
+  .name_ditections-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    h4 {
+      color: #e5e5e5;
+      font-size: 18px;
+      margin: 0px;
+      font-weight: 400;
+    }
+
+    .directions-info {
+      display: flex;
+      flex-direction: column;
+      text-align: end;
+      span {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.all_time-wrapper,
+.from_to_directions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  .time_departure-wrapper {
+    h4 {
+      margin: 0px;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    span {
+      color: #928f94;
+      font-size: 18px;
+    }
+    .time_and_data-wrapper {
+      text-align: start;
+      .arrival_time {
+        text-align: end;
+      }
+    }
+  }
+}
+
+.duration_and_direction {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 56px;
+  h4 {
+    margin: 0px;
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  svg {
+    margin-top: 5px;
+  }
+  .direction_arrival {
+    transform: rotate(180deg);
+  }
+}
+
+.from_to_directions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: -23px;
+  .from_info_direction,
+  .to_info_direction {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      font-size: 18px;
+      color: #e5e5e5;
+      font-weight: 400;
+      margin: 0px;
+      text-transform: capitalize;
+    }
+    span {
+      color: #928f94;
+      font-size: 18px;
+    }
+  }
+  .from_info_direction {
+    text-align: start;
+    span {
+      width: 130px;
+    }
+  }
+
+  .to_info_direction {
+    text-align: end;
+    span {
+      width: 140px;
+    }
+  }
+}

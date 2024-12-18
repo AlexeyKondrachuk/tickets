@@ -1,0 +1,175 @@
+.route-item-container {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 960px;
+  box-shadow: 0px 2px 2px 0px #0000004d;
+  border: 1px solid #c4c4c4;
+  background: #ffffff;
+  &:hover {
+    border-bottom: 1px solid #ffa800;
+    border-right: 1px solid #ffa800;
+  }
+
+  &:hover .seats-information {
+    border-top: 1px solid #ffa800;
+  }
+
+  &:hover .time-information-wrapper {
+    border-top: 1px solid #ffa800;
+  }
+
+  .train-information {
+    background: #e4e0e9;
+  }
+}
+
+.train-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 32px;
+
+  text-align: left;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  .direction {
+    display: flex;
+    flex-direction: column;
+    width: 153px;
+    margin-left: 26px;
+    text-transform: capitalize;
+  }
+}
+
+.to_info,
+.from_info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 160px;
+  margin-left: 35px;
+  div {
+    display: flex;
+    flex-direction: column;
+    .city_info {
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .station_info {
+      font-size: 16px;
+      color: #928f94;
+    }
+  }
+  .time {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+.on_the_way {
+  p {
+    color: #c4c4c4;
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+.time-information-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-right: 33px;
+  width: 46%;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.time-information {
+  display: flex;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.seats-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 1px solid #e5e5e5;
+  padding: 22px;
+  width: 100%;
+  max-width: 284px;
+  box-sizing: border-box;
+
+  .type_seats_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .icons_additional_info {
+    margin-top: auto;
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+}
+.seat_info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  .type_of_seats {
+    color: #3e3c41;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .quantity {
+    font-weight: 500;
+    color: #ffa800;
+    margin-left: auto;
+    margin-right: 11px;
+  }
+  .price_info {
+    font-size: 24px;
+    font-weight: 700;
+    span {
+      color: #928f94;
+      font-size: 26px;
+      &:first-of-type {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.btn_choosing_seat {
+  width: 228px;
+  height: 39px;
+  background: #ffa800;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19px;
+  &:hover {
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  &:active {
+    border: 1px solid #ffa800;
+    color: #ffa800;
+    background-color: transparent;
+  }
+}

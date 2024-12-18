@@ -1,0 +1,81 @@
+.seats_sheme {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 98px;
+  left: 124px;
+  gap: 6px;
+  .num_carriage {
+    display: flex;
+    position: absolute;
+    top: -29px;
+    left: -93px;
+    color: #f2f2f2;
+    background: #1b1b1b;
+    width: 30px;
+    height: 26px;
+    padding-left: 6px;
+    font-weight: 600;
+  }
+  .cell {
+    display: grid;
+    grid-template-columns: repeat(2, 25px);
+    grid-template-rows: repeat(2, 28px);
+    row-gap: 0px;
+    column-gap: 26px;
+    z-index: 5;
+    .seat_n1,
+    .seat_n2,
+    .seat_n3,
+    .seat_n4 {
+      button {
+        width: 25px;
+        height: 28px;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        background: #f2f2f2;
+        border-radius: 0px;
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.scheme {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom: 81px;
+  margin-left: 17px;
+  margin-right: 17px;
+  img {
+    max-width: 926px;
+  }
+}
+
+.notification {
+  width: 199px;
+  height: 72px;
+  background: #f3f3f3;
+  margin-right: 42px;
+  text-align: left;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+.scheme-img {
+  display: flex;
+  position: relative;
+  .carriage-num {
+    width: 25px;
+    height: 20px;
+    background-color: #1b1b1b;
+    color: #fff;
+    position: absolute;
+    left: 4.6%;
+    text-align: center;
+  }
+}

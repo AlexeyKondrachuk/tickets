@@ -1,0 +1,67 @@
+.previous-btn,
+.next-btn {
+  border: 2px solid #c4c4c4;
+  width: 84px;
+  height: 75px;
+  border-radius: 5px;
+  background: transparent;
+  &:hover {
+    border: 2px solid #ffa800;
+  }
+  &:hover svg {
+    path {
+      fill: #ffa800;
+    }
+  }
+}
+
+.btn-pagination {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 2px solid #c4c4c4;
+  width: 84px;
+  height: 75px;
+  border-radius: 5px;
+  background: transparent;
+  font-weight: 700;
+  font-size: 30px;
+  &:hover {
+    border: 2px solid #ffa800;
+    color: #ffa800;
+  }
+}
+
+.dot_fake_btn {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: end;
+  box-sizing: border-box;
+  border: 2px solid #c4c4c4;
+  width: 85px;
+  height: 75px;
+  padding-bottom: 18px;
+  .dot {
+    width: 9px;
+    height: 9px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+  }
+}
+
+.btn-pagination-active {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 85px;
+  height: 75px;
+  background: #ffa800;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+  border: none;
+  &:hover {
+    border: none;
+  }
+}

@@ -1,0 +1,38 @@
+.title-range {
+  display: flex;
+  width: 88%;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 33px;
+  margin-bottom: 34px;
+
+  svg {
+    margin-right: 10px;
+  }
+
+  h3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+  button {
+    background: transparent;
+    border: none;
+    padding: 5px;
+    &:hover svg {
+      path {
+        fill: #ffa800;
+      }
+      rect {
+        stroke: #ffa800;
+      }
+      line {
+        stroke: #ffa800;
+      }
+    }
+  }
+}

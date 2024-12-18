@@ -1,0 +1,125 @@
+.passengersPersonInfo-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+.info_pass-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.passengersInfo_title-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100px;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+
+  h4 {
+    margin-left: 32px;
+    color: #292929;
+    font-size: 30px;
+    font-weight: 400;
+  }
+}
+
+.info_person-wrapper {
+  display: flex;
+  gap: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  &:nth-last-of-type(1) {
+    border-bottom: none;
+  }
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 85px;
+    align-items: center;
+    span {
+      color: #292929;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  .info_person-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    .title_fio {
+      color: #292929;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0px;
+      margin-bottom: 11px;
+      margin-top: -9px;
+    }
+    span {
+      color: #928f94;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+.info_total_price-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 280px;
+  border-left: 1px solid #e5e5e5;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    span {
+      font-size: 30px;
+      color: #292929;
+      font-weight: 400;
+      span {
+        color: #928f94;
+      }
+    }
+  }
+}
+
+.check_update-btn {
+  border: 1px solid #292929;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #292929;
+  width: 233px;
+  height: 40px;
+  padding: 0px;
+  margin-top: 15px;
+  &:hover {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #ffa800;
+  }
+  &:active {
+    background-color: #ffa800;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #292929;
+  }
+}

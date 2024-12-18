@@ -1,0 +1,62 @@
+.lastTicket-wrapper {
+  max-width: 364px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 0px;
+  background: #fff;
+}
+
+.destination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 29px;
+}
+
+.aside_city_info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+
+  .city_info {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  .station_info {
+    color: #c4c4c4;
+  }
+  &:first-of-type {
+    text-align: left;
+  }
+}
+
+.price-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  div {
+    margin-top: 8px;
+  }
+  .aside_price_info {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffa800;
+    span {
+      font-size: 16px;
+      color: #928f94;
+      &:last-of-type {
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+.lastTickets_icons {
+  display: flex;
+  gap: 18px;
+}

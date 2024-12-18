@@ -1,0 +1,75 @@
+.hiw-container {
+  display: flex;
+  position: relative;
+}
+
+.hiw-image {
+  width: 100%;
+  max-width: 1920px;
+}
+
+.hiw-title {
+  display: flex;
+  position: absolute;
+  top: 60px;
+  left: calc(1vw * 10);
+  right: calc(2vw * 10);
+
+  .hiw-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    h3 {
+      font-size: 36px;
+      font-weight: 500;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .learn_more-btn {
+      background-color: transparent;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: capitalize;
+      border-radius: 5px;
+      padding-left: 75px;
+      padding-right: 75px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      &:hover {
+        background: #ffca62;
+        border: none;
+        color: #2d2b2f;
+      }
+      &:active {
+        background: #ffffff;
+        border: none;
+        color: #2d2b2f;
+      }
+    }
+  }
+}
+
+.hiv-container-icons {
+  display: flex;
+  position: absolute;
+  gap: 190px;
+  right: 25%;
+  top: 230px;
+  left: 20%;
+}
+
+.hiv-container-icon {
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .icon-title {
+    color: #e5e5e5;
+    font-size: 24px;
+    font-weight: 400;
+  }
+}

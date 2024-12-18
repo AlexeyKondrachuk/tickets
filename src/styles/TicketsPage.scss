@@ -1,0 +1,44 @@
+.ticketspage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 95px;
+  margin-bottom: 95px;
+
+  .page_wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 51%;
+  }
+}
+
+.title-lastTickts {
+  margin-top: 94px;
+  h3 {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+  }
+}
+
+.lastTickets-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-top: 26px;
+}
+
+.items-Tickets-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  gap: 53px;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 140px;
+  justify-content: end;
+}

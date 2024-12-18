@@ -1,0 +1,131 @@
+.container {
+  max-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  flex-direction: column;
+  .time-departure {
+    color: #e5e5e5;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: -48px;
+    margin-bottom: 9px;
+    margin-right: 165px;
+  }
+  .time-arrival {
+    color: #e5e5e5;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: -48px;
+    margin-bottom: 9px;
+    margin-left: 150px;
+  }
+}
+
+.slider {
+  position: relative;
+  width: 88%;
+}
+
+.slider__track_t,
+.slider__range_t,
+.slider__left-value,
+.slider__right-value {
+  position: absolute;
+}
+
+.slider__track_t,
+.slider__range_t {
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 10px;
+}
+
+.slider__track_t {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  width: 100%;
+  z-index: 1;
+}
+
+.slider__range_t {
+  background-color: #ffa800;
+  margin-top: -1px;
+  z-index: 2;
+}
+
+.slider__left-value,
+.slider__right-value {
+  color: #dee2e6;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.slider__left-value {
+  left: 6px;
+}
+
+.slider__right-value {
+  right: -4px;
+}
+
+/* Removing the default appearance */
+.thumbt,
+.thumbt::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 18px;
+}
+
+.thumbt {
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: 330px;
+
+  outline: none;
+  margin-top: 12px;
+}
+
+.thumb--zindex-3 {
+  z-index: 3;
+}
+
+.thumb--zindex-4 {
+  z-index: 4;
+}
+
+.thumb--zindex-5 {
+  z-index: 5;
+}
+
+/* For Chrome browsers */
+.thumbt::-webkit-slider-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+/* For Firefox browsers */
+.thumbt::-moz-range-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}

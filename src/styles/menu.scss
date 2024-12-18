@@ -1,0 +1,26 @@
+.menu-container {
+  background: #292929;
+  display: flex;
+  gap: 80px;
+  margin: 0px;
+  top: 64px;
+  padding-left: 10vw;
+  z-index: 3;
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.menu_item {
+  display: flex;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  &:hover {
+    color: #ef832b;
+  }
+}

@@ -1,0 +1,47 @@
+.wrapper-ticket {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 95px;
+  margin-bottom: 95px;
+}
+
+.selectSeats-wrapper {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  .select-title {
+    margin-right: auto;
+    font-size: 30px;
+    color: #292929;
+    text-transform: uppercase;
+    margin-top: -10px;
+  }
+}
+
+.next-steps {
+  width: 222px;
+  height: 60px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #ffa800;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 102px;
+  margin-left: auto;
+  &:hover {
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  &:disabled {
+    background-color: #928f94;
+  }
+  &:active {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: transparent;
+    color: #ffa800;
+    border: 1px solid #ffa800;
+  }
+}

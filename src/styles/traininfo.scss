@@ -1,0 +1,14 @@
+.route-item-check-container {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 960px;
+  background: #ffffff;
+  .train-information {
+    background: #e4e0e9;
+  }
+}
+.train_info_check {
+  box-shadow: 0px 2px 2px 0px #00000040;
+  border-bottom: 1px solid #c4c4c4;
+}

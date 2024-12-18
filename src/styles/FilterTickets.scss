@@ -1,0 +1,156 @@
+.filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 364px;
+  width: 18.8vw;
+
+  padding-top: 43px;
+  background: #3e3c41;
+}
+
+.filter-input-date-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 33px;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  input {
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
+.toggle-filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 26px;
+  gap: 28px;
+}
+.toggle-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+input[type="checkbox"] {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.filter-tickets-label {
+  display: flex;
+  width: 72px;
+  height: 19px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background-color: #c4c4c4;
+
+    position: absolute;
+    border-radius: 70px;
+    top: -5px;
+    left: -5px;
+    transition: 0.5s;
+  }
+}
+
+input:checked + .filter-tickets-label {
+  background-color: #fcdc9d;
+  &::after {
+    left: calc(100% + 5px);
+    transform: translateX(-100%);
+    background-color: #ffa800;
+  }
+}
+
+.toggle-item-wrapper {
+  display: flex;
+
+  justify-content: space-between;
+  margin-left: 65px;
+  margin-right: 34px;
+  h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: auto;
+    margin-left: 35px;
+  }
+}
+
+.toggle-wrapper {
+  display: flex;
+}
+
+.price_range-container {
+  height: 187px;
+  .price-title {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      font-size: 30px;
+      color: #ffffff;
+      text-align: left;
+      margin-left: 15px;
+      font-weight: 400;
+      margin-top: 26px;
+      margin-bottom: 0px;
+    }
+    .from_to-wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 88%;
+      margin: auto;
+      height: 20px;
+      p {
+        color: #ffffff;
+        font-size: 18px;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+.space {
+  display: flex;
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.input_from {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  svg {
+    display: flex;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }
+}

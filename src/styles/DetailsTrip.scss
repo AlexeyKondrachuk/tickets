@@ -1,0 +1,41 @@
+.details_trip-wrapper {
+  width: 360px;
+  height: fit-content;
+  background: #3e3c41;
+  padding-bottom: 35px;
+  padding-top: 4px;
+  margin-top: 95px;
+  margin-bottom: 50px;
+
+  h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #e5e5e5;
+    text-transform: uppercase;
+  }
+}
+
+.total_price-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  span {
+    font-size: 48px;
+    color: #ffa800;
+    font-weight: 700;
+    padding-top: 20px;
+    span {
+      color: #ffffff;
+      font-size: 48px;
+      font-weight: 400;
+    }
+  }
+  .total_price__title {
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0px;
+    margin-top: 16px;
+    padding-top: 16px;
+    text-transform: uppercase;
+  }
+}

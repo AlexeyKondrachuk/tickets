@@ -1,0 +1,39 @@
+.form-search-wrapper {
+  background: rgba(41, 41, 41, 0.8);
+  position: absolute;
+  bottom: 0px;
+  max-width: 1490px;
+  height: 350px;
+  bottom: 80px;
+}
+
+.form-header {
+  display: flex;
+  gap: 24px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-right: 2.6vw;
+}
+
+.label-searh {
+  text-align: left;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.btn-search-s {
+  background: #ffa800;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 325px;
+  margin-top: 40px;
+}
+
+.steps-container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}

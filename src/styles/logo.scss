@@ -1,0 +1,29 @@
+.logo-container {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-left: 10vw;
+  z-index: 3;
+  position: absolute;
+  &:last-of-type {
+    margin-left: 0px;
+    position: relative;
+  }
+  a {
+    p {
+      margin: 0px;
+    }
+  }
+}
+
+.logo {
+  color: #e5e5e5;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.footer-logo_section_title {
+  color: #e5e5e5;
+  font-size: 24px;
+  font-weight: 300;
+}

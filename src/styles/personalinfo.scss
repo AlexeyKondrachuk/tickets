@@ -1,0 +1,144 @@
+.personalifo-wrapper {
+  box-sizing: border-box;
+  margin-top: 95px;
+  max-width: 960px;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 2px 2px 0px #00000040;
+  background: #fff;
+
+  padding-bottom: 80px;
+}
+
+.personalinfo-title,
+.typePayment-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #f9f9f9;
+  height: 107px;
+  border-bottom: 1px solid #928f94;
+
+  h3 {
+    margin: 0px;
+    color: #292929;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 35px;
+  }
+}
+
+.personalinfo {
+  label {
+    color: #292929 !important;
+    font-weight: 400;
+  }
+}
+
+.emailinfo {
+  label {
+    color: #292929 !important;
+    font-weight: 400;
+  }
+}
+
+.phone {
+  h4 {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    font-size: 24px;
+    color: #c4c4c4;
+    pointer-events: none;
+  }
+  label {
+    color: #292929 !important;
+    font-weight: 400;
+
+    input {
+      padding-left: 48px !important;
+    }
+  }
+}
+
+.input_phone_email {
+  margin-bottom: 90px;
+}
+
+.typePayment-title {
+  border-top: 1px solid #928f94;
+}
+
+.typePayment-wrapper {
+  padding-bottom: 80px;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 35px;
+  margin-top: 50px;
+
+  .checkbox-input {
+    display: none;
+  }
+
+  .checkbox-custom {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #928f94;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 12px;
+      height: 20px;
+      margin-bottom: 4px;
+      border: solid #ffa800;
+      border-width: 0 4px 4px 0;
+      transform: rotate(30deg);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  }
+
+  .checkbox-input:checked + .checkbox-custom {
+    border: 2px solid #ffa800;
+  }
+
+  .checkbox-input:checked + .checkbox-custom::after {
+    opacity: 1;
+  }
+  .checkbox-input:checked + .checkbox-custom + span {
+    color: #ffa800;
+    font-size: 24px;
+  }
+  .checkbox-input + .checkbox-custom + span {
+    color: #928f94;
+    font-size: 24px;
+  }
+}
+
+.online_method-wrapper {
+  display: flex;
+  gap: 100px;
+  border-bottom: 1px solid #928f94;
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-bottom: 64px;
+  h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+    &:nth-child(1) {
+      width: 150px;
+      text-align: left;
+    }
+  }
+}
