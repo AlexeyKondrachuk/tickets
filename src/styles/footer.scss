@@ -10,7 +10,9 @@
 
 .contacts_socials-wrapper {
   display: flex;
-  gap: 15vw;
+  max-width: 1360px;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .contacts {
@@ -68,7 +70,7 @@
   flex-direction: row;
   gap: 20px;
   .input-subscribe {
-    width: 23vw;
+    width: 447px;
     height: 60px;
     font-size: 24px;
     padding-left: 21px;
